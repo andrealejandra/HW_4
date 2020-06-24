@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<header>
+    <div id= "scores"><a href="scores.html">View High Scores</a></div>
+    <div id= "timer">Time Remaining: <span id="time">0</span></div>
+</header>
+<body>
+    <h1>Test Your Knowledge!</h1>
+    <div class = "wrapper">
+        <p id= "displaytxt">Click on the start button to begin.</p>
+        <button id="start">Start</button>
+  
+        <div id="questionContainer" class="hide">
+            <div id="question">
+
+            </div>
+            <div id="choices">
+
+            </div>
+
+        </div>
+        <div id="submitQuiz" >
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
